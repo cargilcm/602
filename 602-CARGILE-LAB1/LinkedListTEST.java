@@ -47,49 +47,41 @@ public class LinkedListTEST<E> extends LinkedList<E>
         String b = "boy";
         String c = "cat";
     	
-    	//System.out.println("test:size()="+test.size()); // >> ....-0 	
-    	//System.out.println("test:isEmpty()="+test.isEmpty()); // >> .... true
+    	System.out.println("size()="+test.size()); // >> ....-0 	
+    	System.out.println("isEmpty()="+test.isEmpty()); // >> .... true
     	
-        
-    	System.out.println("test:add("+a+")");
-    	
+    	System.out.println("add("+a+")");
     	test.add(a); // add "apple"
-    	//test.remove(0);
-    	//System.out.println("test:size()="+test.size()); // >> ....1 
-    	System.out.println("test:get("+0+")="+test.get(0));
+    	System.out.println("size()="+test.size()); // >> ....1 
+    	System.out.println("get("+0+")="+test.get(0));
     	
-//    	
-    	System.out.println("test:get("+0+")="+test.get(0));
+    	System.out.println("\nadd("+b+")");
+    	test.add(b); // add "boy"
+    	System.out.println("add("+c+")");
+    	test.add(c); // add "cat"
+    	System.out.println("size()="+test.size()); // >> ....3
+    	System.out.println("toString()="+test.toString()); // >>> apple boy cat
     	
-//    	System.out.println("test:add("+b+")");
-//    	test.add(b); // add "boy"
-//    	System.out.println("test:size()="+test.size()); // >> ....2
-//    	
-//    	System.out.println("test:add("+c+")");
-//    	test.add(c); // add "cat"
-//    	System.out.println("test:size()="+test.size()); // >> ....3
-//    	System.out.println("test:toString()="+test.toString()); // >>> apple boy cat
-//    	
-//    	System.out.println("test:get(lastElem@size()-1)="+test.get(test.size()-1)); // size()-1 because [index] is 1 less
-//    	System.out.println("test:remove(0)="+test.remove(0)); // >> ....apple
-//    	System.out.println("test:size()="+test.size()); // >> ....1
-//    	System.out.println("test:toString()="+test.toString()); // >>> boy cat
-//    	
-//    	System.out.println("test:remove(0)="+test.remove(0)); // >> ....boy
-//    	System.out.println("test:toString()="+test.toString()); // >>> cat
-//    	
-//    	System.out.println("test:size()="+test.size()); // >> ....1
-//    	System.out.println("test:add(0,"+b+")");
-//    	
-//    	System.out.println("test:get(0)="+test.get(0)); // >> cat
-//    	test.add(0,b);
-//    	System.out.println("test:get(0)="+test.get(0)); // >> cat
-//    	
-//    	System.out.println("test:toString()="+test.toString()); // >>> boy
-//    	
-    //	System.out.println("test:remove(0)="+test.remove(0)); // >> ....cat
-    	//System.out.println("test:toString()="+test.toString()); // >>> ""
+    	System.out.println("get(last)="+test.get(test.size()-1)); // size()-1 because [index] is 1 less
+    	System.out.println("remove(0)="+test.remove(0)); // >> ....apple
+    	System.out.println("size()="+test.size()); // >> ....1
+    	System.out.println("toString()="+test.toString()); // >>> boy cat
     	
+    	System.out.println("remove(0)="+test.remove(0)); // >> ....boy
+    	System.out.println("toString()="+test.toString()); // >>> cat
+    	
+    	System.out.println("size()="+test.size()); // >> ....1
+    	System.out.println("add(0,"+b+")");
+    	
+    	System.out.println("get(0)="+test.get(0)); // >> cat
+    	test.add(0,b);
+    	System.out.println("get(0)="+test.get(0)); // >> cat
+    	
+    	System.out.println("toString()="+test.toString()); // >>> boy
+    	
+    	System.out.println("remove(0)="+test.remove(0)); // >> ....cat
+    	System.out.println("toString()="+test.toString()); // >>> ""
+//    	
     }
    
   }
