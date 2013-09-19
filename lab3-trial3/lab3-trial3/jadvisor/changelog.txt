@@ -1,0 +1,61 @@
+JAdvisor Changelog
+0.4.6
+ SchoolAdapter throws new Exceptions
+ Added SplitPanes to SchedulerUI and PlannerUI
+ PlannerUI displays semester names
+ Text Box bug fixed
+ Scheduler UI bugfixes
+ NCSU adapter bugfixes
+ UNC adapter updated
+0.4.5
+ Improved course selection in Planner (PlanViewPanel changes)
+ Created AdvisorDialogs class
+ Added threading to SchedulerUI
+ Added threading to SearchUI
+0.4.4
+ Scheduler displays Blocks in the table
+ Fix for ScheduleGraph bug
+ Improved StudentBlockUI
+0.4.3
+ Added ability to save your schedule or plan to HTML
+ Moved properties file to "user.home"/.jadvisor
+0.4.2
+ Added New Student Wizard
+ Added Preferences menu
+ Curriculum list in Planner displays courses
+ Tooltips for prerequisites in Planner
+ Fixed Save as HTML in ScheduleGraph
+ SchoolAdapter for University of North Carolina now functional
+ Bugfixes to NCSU Adapter
+0.4.1
+ New close dialogs
+ New SchoolAdapter choice dialog
+ Bug fixes
+0.4.0
+ New .exe installer for Windows users
+ ScheduleGraphUI outputs graph as HTML
+ Increased customization with SchoolAdapters
+ Better string output of TimeOfDay
+0.3.1
+ ScheduleGraph now displays an HTML graph of courses
+ SchoolAdapter for NC State University now functional
+ Better interface specs for SchoolAdapter formalized
+0.3.0
+ Bug fixes for Schedule Wizard
+ Added toString for StudentSemesterPlan and StudentSchedule
+ Added splash window
+ Improved support for icons
+ Bug fixes in ScheduleGraphUI
+ Saves window properties
+ About dialog
+0.2.0
+ Full file support - new/open/save .jaf files
+0.1.1
+ Added JA icon
+ Better new/open/save file support (still not finished)
+ File options refresh the GUI
+ Created Advisor.java, moved main to here
+ Start properties support
+ Title displays opened file's name
+0.1.0
+ Initial release
